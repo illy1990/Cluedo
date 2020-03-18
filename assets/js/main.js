@@ -7,10 +7,6 @@ const suspectsArray = [{
     mrMustard: [{ firstName: "Jack", lastName: "Mustard", job: "Retired Football player", age: 62, description: "He is a former football player who tries to get by on his former glory", image: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/07/04/08/unspecified-3.jpg", color: "yellow" }]
 }]
 
-// const keysValuesSuspectArray = Object.values(suspectsArray)
-// const keysKeysSuspectArray = Object.keys(suspectsArray)
-// const keysEntriesSuspectArray = Object.keys(suspectsArray)
-
 var weaponsArray = [
     { name: "Rope", weight: 10 },
     { name: "knife", weight: 8 },
@@ -39,13 +35,59 @@ var roomsArray = [
     { name: "Patio" }
 ]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------- Dateischrott eigener Versuch -------------------------------------
+// const keysValuesSuspectArray = Object.values(suspectsArray)
+// const keysKeysSuspectArray = Object.keys(suspectsArray)
+// const keysEntriesSuspectArray = Object.keys(suspectsArray)
+
+// suspectsArray.mrGreen.forEach(EigenschaftPerson => document.getElementById("Personenausgabe").innerHTML += EigenschaftPerson)
+
 // document.getElementById("Personenanzeige").addEventListener("click", () => {
 //     console.log(keysValuesSuspectArray);
 //     console.log(keysKeysSuspectArray);
 //     console.log(keysEntriesSuspectArray);
 // })
-
-
 
 // => document.getElementById("Personenausgabe").innerHTML = (ele[i].image)))
 // suspectsArray[i]()
